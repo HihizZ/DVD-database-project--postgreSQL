@@ -29,3 +29,6 @@ Database download links :[Download](https://github.com/HihizZ/DVD-database-proje
 
 ## Dvd Rental Entity Relationship Diagram
 ![dvd rental database diagram](https://github.com/HihizZ/DVD-database-project--postgreSQL/blob/main/resourse/Photo/dvd-rental-sample-database-diagram.png)
+
+## to start SQL Turoial:
+W3schools: https://www.w3schools.com/sql/default.asp
