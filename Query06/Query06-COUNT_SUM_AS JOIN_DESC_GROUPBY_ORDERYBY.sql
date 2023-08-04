@@ -1,4 +1,4 @@
---find out the higher film and total amount
+--find out the total amount on film 
 -- COUNT, SUM, AS, JOIN, DESC, GROUP BY, ORDER BY
 SELECT c.category_id, c.name AS category_name, COUNT(f.film_id) AS film_count, SUM(p.amount) AS total_amount
 FROM category c

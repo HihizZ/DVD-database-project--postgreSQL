@@ -1,3 +1,4 @@
+--The email list on staff and customer
 --UNION
 SELECT 'staff' AS TYPE,first_name, last_name, email
 FROM staff
