@@ -42,5 +42,5 @@ $$;
 
 --using function
 SELECT
-get_film_count(50, 70)
+get_film_count(70, 100)
 
