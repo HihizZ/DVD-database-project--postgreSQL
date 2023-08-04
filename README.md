@@ -27,8 +27,8 @@ Database download links :[Download](https://github.com/HihizZ/DVD-database-proje
 - **city** – stores city names.  
 - **country** – stores country names.  
 
-## Dvd Rental Entity Relationship Diagram
+## DVD Rental Entity Relationship Diagram
 ![dvd rental database diagram](https://github.com/HihizZ/DVD-database-project--postgreSQL/blob/main/resourse/Photo/dvd-rental-sample-database-diagram.png)
 
-## to start SQL Turoial:
+## To start SQL Turoial:
 W3schools: https://www.w3schools.com/sql/default.asp
