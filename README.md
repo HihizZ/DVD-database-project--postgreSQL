@@ -10,7 +10,7 @@
 ---
 
 ## There are 15 tables in the DVD Rental database:
-Database download links :[Download](https://github.com/HihizZ/DVD-database-project--postgreSQL/blob/main/Database%20sourse/dvdrental.tar
+Database download links :[Download](https://github.com/HihizZ/DVD-database-project--postgreSQL/blob/main/Database%20sourse/dvdrental.tar)
 
 **actor** – stores actors data including first name and last name.  
 **film** – stores film data such as title, release year, length, rating, etc.  
