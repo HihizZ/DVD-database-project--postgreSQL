@@ -121,7 +121,12 @@ ORDER BY first_name, last_name;
 ```
 Query09:
 ```
-
+SELECT fc.category_id, c.name,  COUNT(fc.category_id) AS category_count
+FROM film_category fc
+LEFT JOIN category c
+    ON c.category_id = fc.category_id
+GROUP BY c.name, fc.category_id
+order by category_id,category_count;
 ```
 Query10:
 ```
@@ -165,4 +170,19 @@ JOIN payment p ON r.rental_id = p.rental_id
 GROUP BY f.rating
 HAVING f.rating::text LIKE 'PG%'
 ORDER BY total_revenue DESC;
+```
+Query12:
+```
+--find out the film_rentals
+--CTE
+WITH film_rentals AS (
+  SELECT inventory.film_id, COUNT(*) AS rental_count
+  FROM rental
+  JOIN inventory ON rental.inventory_id = inventory.inventory_id
+  GROUP BY inventory.film_id
+)
+SELECT f.title, fr.rental_count
+FROM film f
+JOIN film_rentals fr ON f.film_id = fr.film_id
+WHERE fr.rental_count > 1;
 ```
